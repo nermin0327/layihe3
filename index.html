@@ -1,55 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="./style.css">
+
 <body>
-    <div class="general">
-     <p class="light">M4_light</p> 
-      <div class="main">
-         <div class="header">
-          <img src="./Group 6.png">
-         </div>
-         <div class="footer">
-         <h1 class="firsth">Конвертер валют онлайн</h2>
-         <div class="tables">
-         <p class="zero">У меня есть </p>
-         <table class="one">
-          <thead>
-          </thead>
-          <tbody>
-            <tr>
-            <td>RUB</td>
-              <td>USD</td>
-              <td>EUR</td>
-              <td>GBP</td>
-            </tr>
-          </tbody>
-         </table>
+  <div class="general">
+    <div class="list" style="display: flex; justify-content: space-between  ;">
+      <div class="img"><img src="./Asset 1@3x 1.png"></div>
+      <div>
+        <ul style="display: flex; list-style:none">
+          <li class="zero">
+            БАНК
+          </li>
+          <li class="one">
+            БИЗНЕС
+          </li>
+          <li class="two">
+            ИНВЕСТИЦИИ
+          </li>
+          <li class="three">
+            СТРАХОВАНИЕ
+          </li>
+          <li class="four">
+            МОБАЙЛ
+          </li>
+          <li class="five">
+            ПУТЕШЕСТВИЯ
+          </li>
+          <li class="six">
+            РАЗВЛЕЧЕНИЯ
+          </li>
+          </ul>
+          </div>
+          <div><button class="x">
+            ВОЙТИ
+          </button></div>
+      </div>
+      
 
-
-         <p class="none">Хочу приобрести</p>
-         <table class="two">
-            <thead>
-            </thead>
-            <tbody>
-              <tr>
-              <td>RUB</td>
-                <td>USD</td>
-                <td>EUR</td>
-                <td>GBP</td>
-              </tr>
-            </tbody>
-           </table>
-  
-        </div>
-         </div>
-      </div> 
     </div>
-    <script src="./main.js"></script>
+    <div class="main">
+      <h1>Конвертер валют онлайн</h1>
+    </div> 
+    <div class="center">
+    <div class="left">
+      <p class="have">У меня есть </p>
+      <div class="eight">
+        <div class="btnwrapper">
+          <button class="btn">RUB</button>
+          <button class="btn">USD</button>
+          <button class="btn"> EUR</button>
+          <button class="btn">GBP</button>
+        </div>
+        <div class="container">
+          <input class="input" type="number">
+          <p class="show"></p>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <p class="want">Хочу приобрести</p>
+      <div class="eight">
+        <div class="btnwrapper">
+          <button class="btn">RUB</button>
+          <button class="btn">USD</button>
+          <button class="btn"> EUR</button>
+          <button class="btn">GBP</button>
+        </div>
+        <div class="container">
+          <input class="input" type="number">
+          <p class="show"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
+
 </html>
