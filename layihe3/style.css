@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+  width: 89px;
+  height: 23px;
+  margin-top: 13.8px;
+  margin-bottom: 11.4px;
+  margin-left: 100px;
+  max-width: 60%;
+
+  
+}
+.list{
+    /* width: 1152px; */
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    top: 0;
+    left: 0px;
+    right: 0px;
+    background-color: pink;
+    height: 50px;
+}
+/* .zero{
+    height: 19px;
+    width: 44px;
+    margin-left: 64px;
+    margin-top: 15.64px;
+    margin-bottom:12.88px;
+    font-size: 20px;
+}
+.one{
+    margin-top: 15.64px;
+    margin-bottom:12.88px;
+    margin-left: 13px;
+    width:50px;
+    height: 17.48px;
+}
+.two{
+    margin-left:21px;
+    margin-bottom: 12.88px;
+    margin-top: 15.64px;
+    width: 94px;
+    height: 17.48px;
+}
+.three{
+    margin-left: 11px;
+    margin-top: 15.64px;
+    margin-bottom: 12.88px;
+    width: 94px;
+    height: 17.48px;
+}
+.four{
+    margin-left: 16px;
+    margin-top: 15.64px;
+    margin-bottom: 12.88px;
+    width: 68px;
+    height: 17.48px;
+}
+.five{
+    margin-left: 7px;
+    margin-top: 15.64px;
+    margin-bottom: 12.88px;
+    width: 101px;
+    height: 17.48px;
+}
+.six{
+    margin-left: 10px;
+    margin-top: 15.64px;
+    margin-bottom: 12.88px;
+    width: 101px;
+    height: 17.48px;
+}
+.seven{
+    margin-left:109px;
+    margin-top:8.28px;
+    margin-bottom: 7.36px;
+    width:58px;
+    height:  30.36px;
+} */
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+li:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:grey;
+    color:black;
+}
+
+.x{
+     margin-right: 53px;
+     margin-top: 14.5px;
+     width: 70px ;
+     height: 25px ;
+     background-color: white;
+     border: 1px solid gray;
+}
+.x:hover{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.button1{
+    width:  60px ;
+    height: 25px ;
+    border: 1px solid gray;
+    border: none ;
+}
+.button1:hover{
+    background-color: grey;
+    border: none; 
+    cursor: pointer;
+}
+.btn{
+    width:25%;
+    height: 25px;
+    border:none
+    
+   
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 2px;
+    margin-top: 80px; 
+}
+.center{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.have{
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.input{
+    margin-top: 20px;
+    height: 80px;
+    width: 250px;
+    font-size: 30px;
+
+}
+.want{
+    color: gray; 
+    font-size: 12px; 
+    margin-bottom: 10px;
+}
+
+.btnwrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* .btn:hover{
+    color: black;
+    background-color: rgb(160, 72, 243);
+    border: none;
+} */
+
+.active{
+    background-color: blueviolet;
+}
+.show{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid blueviolet;
+    margin-top: 2px;
+}
+
+.login{
+    margin-top: 15px;
+    margin-right: 30px;
+}
+@media screen and (min-width:326px) and ( max-width:805px) {
+    body{
+        background-color: bisque;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   .center{
+   display:flex ;
+   align-items: center;
+   flex-direction: column;
+   }
+   .list {
+    display: flex;
+    background-color: pink; 
+    height: auto;
+   }
+   ul{
+     display: flex;
+     align-items: center;
+     flex-direction: column ;
+   }
+   li:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:grey;
+    color:black;
+}
+   .img{
+     margin-left: 20px;
+   }
+   .x{
+    margin-right: 53px;
+    margin-top: 14.5px;
+    width: 70px ;
+    height: 25px ;
+    background-color: white;
+    border: 1px solid gray;
+}
+   .x:hover{
+    background-color: red;
+    border: none;
+    
+}
+   .login{
+    margin-right: 40px;
+   }
+
+   .main{
+    margin-top: 0px;
+   }
+   h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 2px;
+    margin-top: 80px; 
+}
+   .want{
+    margin-top: 40px;
+   }
+}
